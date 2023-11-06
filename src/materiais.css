@@ -1,0 +1,167 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo img {
+    margin-right: 2rem;
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.conteudo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10rem;
+}
+
+.conteudo2 img {
+    margin-right: 2rem;
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.App-logo-pages {
+    width: 136px;
+    height: 120px;
+    border-radius: 10%;
+}
+
+.App-logo-pages:hover {
+    cursor: pointer;
+}
+
+.title-pages {
+    width: 615px;
+    height: 145px;
+    margin-inline: 200px;
+    margin-left: 100px;
+}
+
+.engrenagem {
+    width: 66px;
+    height: 66px;
+}
+
+.engrenagem:hover {
+    cursor: pointer;
+}
+
+.App-header-pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.description {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 150px;
+    margin-inline: 12rem;
+    text-align: justify;
+}
+
+.description-public {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 150px;
+    margin-inline: 12rem;
+    text-align: center;
+}
+
+.items {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.description-project h1 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.description-project p {
+    color: #000000;
+    font-size: 24px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+    .conteudo2 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-inline: 10px;
+    }
+    .conteudo2 img {
+        width: 300px;
+        height: 300px;
+        border-radius: 5%;
+    }
+    .title-pages {
+        width: 215px;
+        height: 145px;
+        margin-inline: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .engrenagem {
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+    .App-logo-da-pagina {
+        width: 86px;
+        height: 70px;
+    }
+    .App-logo-pages {
+        width: 86px;
+        height: 70px;
+    }
+    .description-public {
+        margin-inline: 20px;
+    }
+}
+@media (max-width: 1000px){
+    .conteudo{
+        display: block;
+    }
+    .items{
+        margin-inline: 10%;
+    }
+}
+
+@media (max-width: 800px){
+    .conteudo img {
+        margin-right: 2rem;
+        width: auto;
+        height: 300px;
+        border-radius: 5%;
+        border: 2px solid black;
+    }
+    .description {
+        margin-inline: 20px;
+    }
+}
+
