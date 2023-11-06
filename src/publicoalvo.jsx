@@ -20,7 +20,7 @@ function Publicoalvo(){
 
             <img className="main-image" src={maos} alt="" />
 
-            <p className="description-public" >O público alvo tem como base crianças de 5 até 10 anos </p>
+            <p className="description-public" >O Público alvo tem como base criança de 3 a 5 anos</p>
 
             <div className='botoes'>
             

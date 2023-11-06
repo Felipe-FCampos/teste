@@ -18,35 +18,35 @@ function Projeto() {
       <body>
         <main>
 
-        <div className="conteudo2">
-              <div className="main-img-div">
-                <img className="main-image" src={robot2} alt="" />
-              </div>
-              <div className="description-project">
-                <h1>Ozzy</h1>
-                <p>
-                  Nosso objetivo é criar um carro robô
-                  para auxiliar crianças que não enxergam, 
-                  esse carro robô a criança vai usar em casa 
-                  porque geralmente os pais não tem 100% do 
-                  tempo pra criança e o carrinho vai cantar 
-                  música para interagir com a criança. 
-                  Nele irá conter um acessório para poder guardar a bengala que usa de apoio.
-                </p>
-              </div>
+          <div className="conteudo2">
+            <div className="main-img-div">
+              <img className="main-image" src={robot2} alt="" />
             </div>
-
-            <div className='botoes'>
-
-              <Link to='/projeto'><button>Objetivo</button></Link>
-              <Link to='/publicoalvo'><button>Público-Alvo</button></Link>
-              <Link to='/ideias'><button>Ideias</button></Link>
-              <Link to='/materiais'><button>Equipamentos</button></Link>
-              <Link to='/projeto'><button>Projeto</button></Link>
-              <Link to='/bibliografia'><button>Bibliografia</button></Link>
-
+            <div className="description-project">
+              <h1>Ozzy</h1>
+              <p>
+                Nosso objetivo é criar um carro robô 
+                para auxiliar crianças que não enxergam. 
+                Este carro robô será utilizado pelas crianças em casa, 
+                uma vez que os pais geralmente não têm 100% do tempo 
+                disponível para elas. O carrinho também será capaz de cantar 
+                músicas para interagir com a criança e conterá um acessório 
+                para guardar a Bengala que a criança usa como apoio
+              </p>
             </div>
-          
+          </div>
+
+          <div className='botoes'>
+
+            <Link to='/projeto'><button>Objetivo</button></Link>
+            <Link to='/publicoalvo'><button>Público-Alvo</button></Link>
+            <Link to='/ideias'><button>Ideias</button></Link>
+            <Link to='/materiais'><button>Equipamentos</button></Link>
+            <Link to='/projeto'><button>Projeto</button></Link>
+            <Link to='/bibliografia'><button>Bibliografia</button></Link>
+
+          </div>
+
         </main>
       </body>
     </div>
