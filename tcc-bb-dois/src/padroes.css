@@ -1,0 +1,68 @@
+.App-logo-da-pagina {
+    width: 136px;
+    height: 120px;
+}
+
+.App-logo-da-pagina:hover {
+    cursor: pointer;
+}
+
+.title-pages {
+    width: 615px;
+    height: 145px;
+    margin-inline: 200px;
+    margin-left: 100px;
+}
+
+.engrenagem {
+    width: 66px;
+    height: 66px;
+}
+
+.engrenagem:hover {
+    cursor: pointer;
+}
+
+.App-header-pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-image {
+    width: 500px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.description {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 150px;
+    margin-inline: 12rem;
+    text-align: justify;
+}
+
+.description-public {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 150px;
+    margin-inline: 12rem;
+    text-align: center;
+}
+
+
+@media (max-width: 800px) {
+    .main-image {
+        width: 300px;
+        height: auto;
+        border-radius: 5%;
+    }
+    .description{
+        margin-inline: 20px;
+    }
+}
